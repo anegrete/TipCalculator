@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  TipCalculator
 //
-//  Created by Ale on 9/30/16.
+//  Created by anegrete on 9/30/16.
 //  Copyright © 2016 Alejandra Negrete. All rights reserved.
 //
 
@@ -15,7 +15,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+
+        // Register default values for UserDefaults
+        UserDefaultsManager.register()
+
         return true
     }
 

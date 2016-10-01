@@ -2,7 +2,7 @@
 //  TipCalculatorTests.swift
 //  TipCalculatorTests
 //
-//  Created by Ale on 9/30/16.
+//  Created by anegrete on 9/30/16.
 //  Copyright © 2016 Alejandra Negrete. All rights reserved.
 //
 
